@@ -37,10 +37,10 @@ services:
         target: /data/movies
     x-casaos:
       envs:
-        - container: PUID
+        - container: UID
           description:
             en_us: ""
-        - container: PGID
+        - container: GID
           description:
             en_us: ""
         - container: TZ
@@ -399,6 +399,6 @@ x-casaos:
   thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/thumbnail.png
   tips: {}
   title:
-    en_US: Emby(QuickSync iGPU)
+    en_US: Emby(AiH)(QuickSync iGPU)
   index: /
   port_map: "8096"
