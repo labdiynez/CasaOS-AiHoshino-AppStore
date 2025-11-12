@@ -8,6 +8,14 @@ services:
       - /dev/video11:/dev/video11
       - /dev/video12:/dev/video12
     image: ghcr.io/labdiynez/emby:4.9.1.90
+    deploy:
+      resources:
+        reservations:
+          memory: 256M
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     restart: unless-stopped
     environment:
       PUID: $PUID
