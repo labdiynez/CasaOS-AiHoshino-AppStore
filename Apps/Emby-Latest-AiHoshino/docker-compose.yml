@@ -52,5 +52,5 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   title:
-    en_us: Emby(QuickSync)
+    en_us: Emby(QuickSync iGPU)
   category: AiHoshino.io
