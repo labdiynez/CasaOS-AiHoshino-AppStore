@@ -1,4 +1,4 @@
-name: emby-nvidia
+name: aihoshino-emby-nvidia
 services:
   emby:
     devices:
