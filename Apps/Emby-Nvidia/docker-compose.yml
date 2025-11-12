@@ -1,6 +1,12 @@
 name: aihoshino-emby-nvidia
 services:
   app:
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/vchiq:/dev/vchiq
+      - /dev/video10:/dev/video10
+      - /dev/video11:/dev/video11
+      - /dev/video12:/dev/video12
     image: ghcr.io/labdiynez/emby:4.9.1.90
     restart: unless-stopped
     environment:
