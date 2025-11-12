@@ -1,4 +1,4 @@
-name: linuxserver-emby
+name: aihoshino-emby
 services:
   app:
     image: linuxserver/emby:4.9.1
@@ -53,4 +53,4 @@ x-casaos:
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   title:
     en_us: Emby
-  category: LinuxServer.io
+  category: AiHoshino.io
