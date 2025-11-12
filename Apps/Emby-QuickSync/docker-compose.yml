@@ -1,7 +1,7 @@
 name: aihoshino-emby-quicksync
 services:
   app:
-    image: linuxserver/emby:4.9.1
+    image: ghcr.io/labdiynez/emby:4.9.1.90
     restart: unless-stopped
     environment:
       PUID: $PUID
@@ -27,13 +27,13 @@ services:
         protocol: tcp
     volumes:
       - type: bind
-        source: /srv/lsio/emby/config
+        source: /srv/aih/emby/config
         target: /config
       - type: bind
-        source: /srv/lsio/emby/data/tvshows
+        source: /srv/aih/emby/data/tvshows
         target: /data/tvshows
       - type: bind
-        source: /srv/lsio/emby/data/movies
+        source: /srv/aih/emby/data/movies
         target: /data/movies
       - type: bind
         source: /opt/vc/lib
@@ -47,10 +47,10 @@ x-casaos:
     en_us: Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
   tagline:
     en_us: Organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
-  developer: LinuxServer.io
-  author: WisdomSky
+  developer: AiHoshino
+  author: AiHoshino
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   title:
-    en_us: Emby
-  category: LinuxServer.io
+    en_us: Emby(AiH)(QuickSync)
+  category: AiHoshino.io
