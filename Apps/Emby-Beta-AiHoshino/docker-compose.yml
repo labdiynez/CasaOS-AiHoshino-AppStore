@@ -1,6 +1,6 @@
 name: aihoshino-emby-beta
 services:
-  app:
+  aihoshino-emby-beta:
     image: linuxserver/emby:beta
     restart: unless-stopped
     environment:
@@ -42,7 +42,7 @@ x-casaos:
   architectures:
     - amd64
     - arm64
-  main: app
+  main: aihoshino-emby-beta
   description:
     en_us: Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
   tagline:
