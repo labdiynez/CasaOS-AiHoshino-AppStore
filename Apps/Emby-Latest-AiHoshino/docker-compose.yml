@@ -1,6 +1,6 @@
-name: aihoshino-emby-latest
+name: aihoshino-emby-qs
 services:
-  aihoshino-emby-latest:
+  app:
     image: linuxserver/emby:latest
     restart: unless-stopped
     environment:
@@ -42,7 +42,7 @@ x-casaos:
   architectures:
     - amd64
     - arm64
-  main: aihoshino-emby-latest
+  main: app
   description:
     en_us: Emby organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.
   tagline:
@@ -52,5 +52,5 @@ x-casaos:
   icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   thumbnail: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emby-logo.png
   title:
-    en_us: aihoshino-emby-latest
+    en_us: Emby(QuickSync)
   category: AiHoshino.io
