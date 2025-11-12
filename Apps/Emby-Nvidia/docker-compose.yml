@@ -93,7 +93,7 @@ x-casaos:
     pt_br: Juntar todos os seus vídeos, músicas e fotos em um só lugar nunca foi tão fácil. Seu servidor Emby pessoal converte e transmite seus arquivos de mídia em tempo real para reproduzi-los em qualquer dispositivo.
     sv_se: Att samla alla dina hemvideor, musik och foton på ett ställe har aldrig varit enklare. Din personliga Emby-server konverterar och strömmar dina mediefiler i realtid för att spela upp dem på vilket som helst enhet.
     uk_ua: Збирання всіх ваших домашніх відео, музики та фотографій в одному місці ніколи не було таким простим. Ваш особистий сервер Emby автоматично конвертує та потоково передає ваші медіа-файли для відтворення на будь-якому пристрої.
-  developer: linuxserver
+  developer: AiHoshino
   icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/icon.png
   screenshot_link:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Emby/screenshot-1.png
