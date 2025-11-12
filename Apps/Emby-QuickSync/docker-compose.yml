@@ -1,4 +1,4 @@
-name: emby
+name: aihoshino-emby-quicksync
 services:
   emby:
     devices:
