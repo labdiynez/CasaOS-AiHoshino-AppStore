@@ -18,15 +18,15 @@ services:
               capabilities: [gpu]
     restart: unless-stopped
     environment:
-      PUID: $PUID
-      PGID: $PGID
+      UID: $UID
+      GID: $GID
       TZ: $TZ
     x-casaos:
       envs:
-        - container: PUID
+        - container: UID
           description:
             en_us: Run 'id [USER]' for the owner of the host volume directories to get the UID to use here.
-        - container: PGID
+        - container: GID
           description:
             en_us: Run 'id [USER]' for the owner of the host volume directories to get the GID to use here.
         - container: TZ
