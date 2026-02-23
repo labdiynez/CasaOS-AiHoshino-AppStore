@@ -7,7 +7,7 @@ services:
       - /dev/video10:/dev/video10
       - /dev/video11:/dev/video11
       - /dev/video12:/dev/video12
-    image: ghcr.io/labdiynez/emby:4.9.1.90
+    image: ghcr.io/labdiynez/emby:4.9.3.0
     deploy:
       resources:
         reservations:
