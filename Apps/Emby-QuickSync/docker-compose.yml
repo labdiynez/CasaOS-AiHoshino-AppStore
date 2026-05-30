@@ -7,7 +7,7 @@ services:
       - /dev/video10:/dev/video10
       - /dev/video11:/dev/video11
       - /dev/video12:/dev/video12
-    image: ghcr.io/labdiynez/emby:4.9.3.0
+    image: ghcr.io/labdiynez/emby:4.9.5.0
     restart: unless-stopped
     environment:
       UID: $UID
